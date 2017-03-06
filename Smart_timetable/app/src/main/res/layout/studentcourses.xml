@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="20"
+            android:textSize="23sp"
+            android:text="Enroll. No." />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textSize="23sp"
+            android:text="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="40"
+            android:textSize="23sp"
+            android:text="Course1" />
+
+        <Spinner
+            android:id="@+id/planets_spinner11"
+            android:layout_width="wrap_content"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:entries="@array/branch_array"
+            android:prompt="@string/branch_prompt"/>
+
+        <Spinner
+            android:id="@+id/planets_spinner12"
+            android:layout_width="wrap_content"
+            android:layout_weight="40"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="40"
+            android:textSize="23sp"
+            android:text="Course2" />
+
+        <Spinner
+            android:id="@+id/planets_spinner21"
+            android:layout_width="wrap_content"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:entries="@array/branch_array"
+            android:prompt="@string/branch_prompt"/>
+
+        <Spinner
+            android:id="@+id/planets_spinner22"
+            android:layout_width="wrap_content"
+            android:layout_weight="40"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="40"
+            android:textSize="23sp"
+            android:text="Course3" />
+
+        <Spinner
+            android:id="@+id/planets_spinner31"
+            android:layout_width="wrap_content"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:entries="@array/branch_array"
+            android:prompt="@string/branch_prompt"/>
+
+        <Spinner
+            android:id="@+id/planets_spinner32"
+            android:layout_width="wrap_content"
+            android:layout_weight="40"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="40"
+            android:textSize="23sp"
+            android:text="Course4" />
+
+        <Spinner
+            android:id="@+id/planets_spinner41"
+            android:layout_width="wrap_content"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:entries="@array/branch_array"
+            android:prompt="@string/branch_prompt"/>
+
+        <Spinner
+            android:id="@+id/planets_spinner42"
+            android:layout_width="wrap_content"
+            android:layout_weight="40"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="40"
+            android:textSize="23sp"
+            android:text="Course5" />
+
+        <Spinner
+            android:id="@+id/planets_spinner51"
+            android:layout_width="wrap_content"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:entries="@array/branch_array"
+            android:prompt="@string/branch_prompt"/>
+
+        <Spinner
+            android:id="@+id/planets_spinner52"
+            android:layout_width="wrap_content"
+            android:layout_weight="40"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:onClick="submit1"
+        android:text="Submit" />
+
+
+
+</LinearLayout>

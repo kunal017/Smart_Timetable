@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="70dp">
+    <CheckBox android:id="@+id/checkbox_102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EC101"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EC104"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EC232"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EC316"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:onClick="submit1"
+        android:text="Submit" />
+
+</LinearLayout>

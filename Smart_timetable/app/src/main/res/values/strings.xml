@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Smart_timetable</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="class_prompt">Choose class</string>
+
+    <string-array name="class_array">
+        <item>CSE 1st Year</item>
+        <item>CSE 2nd Year</item>
+        <item>CSE 3rd Year</item>
+        <item>CSE 4th Year</item>
+        <item>ECE 1st Year</item>
+        <item>ECE 2nd Year</item>
+        <item>ECE 3rd Year</item>
+        <item>ECE 4th Year</item>
+        <item>EE 1st Year</item>
+        <item>EE 2nd Year</item>
+        <item>EE 3rd Year</item>
+        <item>EE 4th Year</item>
+    </string-array>
+
+    <string name="branch_prompt">Choose dept.</string>
+
+    <string-array name="branch_array">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EE</item>
+    </string-array>
+
+</resources>

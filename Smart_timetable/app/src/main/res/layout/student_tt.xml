@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="cse"
+        android:text="Time Table CSE" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="ece"
+        android:text="Time Table ECE" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="ee"
+        android:text="Time Table EE" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:onClick="get_home"
+        android:text="Home" />
+</LinearLayout>
